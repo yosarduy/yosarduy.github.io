@@ -1,0 +1,12 @@
+/*the dot means we're styling a class, class can be aplied to several elements*/
+/*em menas relative to default size*/
+
+.citation{
+    font-size: .5em;  
+}
+
+/*style an ID, id are unique*/
+#doll{
+    width: 30%;
+}
+
