@@ -1,0 +1,123 @@
+.header {
+    padding: 5px;
+    text-align: left;
+    background: #026077;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gt1 {
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+.tit {
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: left;
+}
+.homelink {
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    text-align: right; 
+}
+a.homelink:hover {
+    color: black;
+}
+.list {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: right;
+}
+.polaroid {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0,0.19);
+    float: left;
+    margin-left: 10px;   
+}
+
+.container {
+    text-align: center;
+    padding: 5px 20px;
+    width: 500px;
+}
+.back{
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    text-align: left;
+}
+a.back:hover {
+    color: black;
+}
+.column {
+    float: left;
+    width: 500px;
+    padding: 10px;
+  }
+  .row::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+.size {
+    width: 350px;
+}
+@keyframes blinker {
+    from {opacity: 1.0; }
+    to {opacity: 0.0;}
+}
+.travel {
+    animation-name: blinker;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+    animation-duration: 0.5s;
+}
+
+.blink {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#img {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 399px;
+    margin-left: 50px;
+}
+#cuba{
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 582px;
+}
+#sp{
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 5px;
+    width: 288px;
+    margin-right: 10px;
+}
+#tit {
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: Center;
+}
+#margin{
+    margin-left: 10px;
+}
