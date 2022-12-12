@@ -3,6 +3,7 @@ function setup() {
   createCanvas(200, 580);
   
 }
+//var declaration
 let dia =(180, 180);
 let pos = 100;
 let colval = (0,0,0);
@@ -12,7 +13,7 @@ let eli1;
 let eli2;
 let eli3;
 let mou;
-//var declaration
+
 function draw() {
   background(255, 255, 0);
   fill(colval);
