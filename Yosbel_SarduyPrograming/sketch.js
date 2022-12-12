@@ -12,7 +12,7 @@ let eli1;
 let eli2;
 let eli3;
 let mou;
-
+//var declaration
 function draw() {
   background(255, 255, 0);
   fill(colval);
@@ -21,12 +21,12 @@ function draw() {
   eli2 = ellipse(pos, 290, dia);
   fill(cv1);
   eli3 = ellipse(pos, 480, dia);
-  
+  //following the mouse
   mou = map(mouseX, mouseY, 190, 5, 5);
   fill(0,0,128,200);
   ellipse(mouseX, mouseY, 10);
   
-  
+  //function
 }
   function mousePressed(){
   if (colval == (0,0,0)) {
